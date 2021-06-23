@@ -16,5 +16,17 @@ public class ConverterTest {
 
     }
 
+    @Test
+    public void C_to_F_Test() {
+
+        Main m = new Main();
+
+        double expectedResult = -12.00;
+        double actualResult = Main.fahrToCel(10);
+
+        Assert.assertEquals(expectedResult, actualResult);
+
+    }
+
 
 }
